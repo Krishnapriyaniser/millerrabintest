@@ -14,7 +14,7 @@ elif n==2:
    
 # using miller_rabin test for the remaining numbers
 else:
-    a=2 # a is any random number betwen 1 and n-1 for convenience we take it to be 2
+    a=2 
     j=(a**m)%n
     
     if j==1:
